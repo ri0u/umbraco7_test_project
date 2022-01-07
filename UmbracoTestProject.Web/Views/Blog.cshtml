@@ -1,0 +1,16 @@
+﻿@inherits UmbracoViewPage<Blog>
+@{
+    Layout = "Master.cshtml";
+}
+
+@Html.Partial("~/Views/Partials/SectionHeader.cshtml")
+
+<section class="section">
+
+    <div class="container">
+
+        @Html.Partial("Blog/LatestBlogposts")
+       
+    </div>
+
+</section>
