@@ -100,6 +100,15 @@ namespace UmbracoTestProject.Core.Models
 		}
 
 		///<summary>
+		/// Telephone
+		///</summary>
+		[ImplementPropertyType("telephone")]
+		public string Telephone
+		{
+			get { return this.GetPropertyValue<string>("telephone"); }
+		}
+
+		///<summary>
 		/// Twitter username
 		///</summary>
 		[ImplementPropertyType("twitterUsername")]

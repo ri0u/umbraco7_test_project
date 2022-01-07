@@ -82,6 +82,15 @@ namespace UmbracoTestProject.Core.Models
 		}
 
 		///<summary>
+		/// Copyright Notice
+		///</summary>
+		[ImplementPropertyType("footerCopyright")]
+		public string FooterCopyright
+		{
+			get { return this.GetPropertyValue<string>("footerCopyright"); }
+		}
+
+		///<summary>
 		/// Call To Action Caption: Caption on the Call To Action Button
 		///</summary>
 		[ImplementPropertyType("footerCTACaption")]
