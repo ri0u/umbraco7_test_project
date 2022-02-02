@@ -8,6 +8,10 @@
     <br />
     <br />
 
+    @Html.LabelFor(m => m.Subject)
+    <br />
+    @Html.TextBoxFor(m => m.Subject, new { @class = "form-control" })
+
     @Html.LabelFor(m => m.Message)
     <br />
     @Html.TextAreaFor(m => m.Message, new { @class = "form-control" })
